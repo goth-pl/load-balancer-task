@@ -1,0 +1,23 @@
+{
+  "name": "goth/load-balancer-interview-task",
+  "description": "LoadBalancer library - eZ Systems interview task",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michal Szycko",
+      "email": "m.szycko@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "~7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Goth\\LoadBalancer\\": "lib/",
+      "Goth\\LoadBalancer\\Tests\\": "tests/lib/"
+    }
+  }
+}
